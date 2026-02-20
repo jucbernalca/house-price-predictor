@@ -73,6 +73,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: jucbernalca/fastapi:{{ github.sha }}
+          tags: jucbernalca/fastapi:${{ github.sha }}
           context: "."
           file: "Dockerfile"
