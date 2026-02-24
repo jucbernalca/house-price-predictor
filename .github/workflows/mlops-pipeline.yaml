@@ -19,7 +19,7 @@ on:
             description: 'Build and Push job'
             required: false
             default: 'false'
-  realease:
+  release:
     types: [created]
     branches: [ main ]
     tags: [ 'v*.*.*' ]
